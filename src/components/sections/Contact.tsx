@@ -17,8 +17,8 @@ const contactLinks = [
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/nesrine-derouiche",
-    href: "https://github.com/nesrine-derouiche",
+    value: "github.com/nesrine77",
+    href: "https://github.com/nesrine77",
   },
 ];
 
