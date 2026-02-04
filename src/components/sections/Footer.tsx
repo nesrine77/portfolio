@@ -4,9 +4,9 @@ import nesrineLogo from "@/assets/nesrine-logo.png";
 
 const socialLinks = [
   { icon: Linkedin, href: "https://linkedin.com/in/nesrine-derouiche", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com/nesrine-derouiche", label: "GitHub" },
-  { icon: Facebook, href: "https://facebook.com/nesrine.derouiche", label: "Facebook" },
-  { icon: Instagram, href: "https://instagram.com/nesrine.derouiche", label: "Instagram" },
+  { icon: Github, href: "https://github.com/nesrine77", label: "GitHub" },
+  { icon: Facebook, href: "https://facebook.com/derouiche.nesrine", label: "Facebook" },
+  { icon: Instagram, href: "https://instagram.com/derouiche.nesrine", label: "Instagram" },
 ];
 
 export function Footer() {

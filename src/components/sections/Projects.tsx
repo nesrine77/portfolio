@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ExternalLink, Github, Smartphone, Globe, Brain, Gamepad2 } from "lucide-react";
+import { ExternalLink, Github, Smartphone, Globe, Brain, GraduationCap, Apple, Trophy, Server, LayoutDashboard, Leaf, Monitor, Briefcase } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -9,59 +9,112 @@ const categories = [
   { id: "mobile", label: "Mobile", icon: Smartphone },
   { id: "web", label: "Web", icon: Globe },
   { id: "ai", label: "AI", icon: Brain },
-  { id: "game", label: "Game Dev", icon: Gamepad2 },
 ];
 
 const projects = [
   {
     id: 1,
-    title: "Tâche-Lik",
+    title: "Tache-Lik (Android)",
     description:
-      "A comprehensive task management mobile application with intuitive UI and powerful features for personal productivity.",
+      "Educational Android app with courses, quizzes, AI-assisted features, and real-time capabilities. Features student learning flows, teacher tooling, and admin operations.",
     category: "mobile",
-    technologies: ["Flutter", "Firebase", "Provider", "Cloud Firestore"],
-    achievements: ["Real-time sync", "Offline support", "Push notifications"],
+    technologies: ["Kotlin", "Jetpack Compose", "Socket.IO", "Hilt"],
+    achievements: ["AI quiz generation", "Real-time chat", "Multi-role support"],
     color: "from-blue-500 to-purple-600",
+    icon: GraduationCap,
+    github: "https://github.com/nesrine77/TacheLik_androidApp",
+    demo: "https://github.com/nesrine77/TacheLik_androidApp",
   },
   {
     id: 2,
-    title: "Star Challenge",
+    title: "Tache-Lik (iOS)",
     description:
-      "Insurance agents challenge platform with real-time leaderboards, gamification, and comprehensive admin dashboard.",
-    category: "web",
-    technologies: ["Flutter", "Node.js", "Socket.IO", "React", "PostgreSQL"],
-    achievements: ["Real-time updates", "Cross-platform", "Admin dashboard"],
-    color: "from-primary to-accent",
+      "A premium iOS learning experience built with SwiftUI, MVVM, and real-time capabilities. Delivers role-based learning for Students, Teachers, and Admins.",
+    category: "mobile",
+    technologies: ["SwiftUI", "MVVM", "Socket.IO", "Combine"],
+    achievements: ["Role-based flows", "Real-time messaging", "Email verification"],
+    color: "from-indigo-500 to-blue-600",
+    icon: Apple,
+    github: "https://github.com/nesrine77/TacheLik_iosApp",
+    demo: "https://github.com/nesrine77/TacheLik_iosApp/tree/main/screenshots",
   },
   {
     id: 3,
-    title: "eco.net",
+    title: "STAR Challenge (Flutter)",
     description:
-      "Environmental awareness platform connecting eco-conscious users to share tips, track impact, and collaborate on sustainability.",
-    category: "web",
-    technologies: ["React.js", "Node.js", "MongoDB", "Express"],
-    achievements: ["Community features", "Impact tracking", "Responsive design"],
-    color: "from-green-500 to-teal-600",
+      "Modern mobile gamification app with challenges, performance tracking, and dynamic leaderboards. Built with Material 3 and robust routing.",
+    category: "mobile",
+    technologies: ["Flutter", "Material 3", "Provider", "go_router"],
+    achievements: ["Real-time updates", "Gamification", "Leaderboard"],
+    color: "from-primary to-accent",
+    icon: Trophy,
+    github: "https://github.com/nesrine77/starChallenge_frontend",
+    demo: "https://github.com/nesrine77/starChallenge_frontend/tree/main/assets/demo",
   },
   {
     id: 4,
-    title: "HireUp",
+    title: "STAR Challenge (Backend)",
     description:
-      "Modern recruitment platform streamlining the hiring process with AI-powered candidate matching and interview scheduling.",
-    category: "ai",
-    technologies: ["Python", "React", "FastAPI", "PostgreSQL", "AI/ML"],
-    achievements: ["AI matching", "Automated scheduling", "Analytics dashboard"],
-    color: "from-orange-500 to-red-600",
+      "Modular Node.js/Express backend with REST APIs, real-time Socket.IO updates, leaderboard calculations, and analytics for admin dashboard.",
+    category: "web",
+    technologies: ["Node.js", "Express 5", "SQLite", "Socket.IO"],
+    achievements: ["Real-time updates", "Leaderboard system", "Analytics"],
+    color: "from-slate-500 to-gray-700",
+    icon: Server,
+    github: "https://github.com/nesrine77/starChallenge_backend",
+    demo: "https://github.com/nesrine77/starChallenge_backend",
   },
   {
     id: 5,
-    title: "The World Within",
+    title: "STAR Challenge (Dashboard)",
     description:
-      "An immersive adventure game exploring inner worlds with stunning visuals and engaging storytelling.",
-    category: "game",
-    technologies: ["Unity", "C#", "Blender", "Adobe Creative Suite"],
-    achievements: ["2nd Place Award", "Original soundtrack", "Multiple levels"],
-    color: "from-indigo-500 to-pink-600",
+      "Modern admin dashboard for STAR Challenge platform. Features analytics, KPIs, charts, and comprehensive management tools with light/dark theme.",
+    category: "web",
+    technologies: ["React 19", "Material UI 7", "Recharts", "Formik"],
+    achievements: ["Analytics dashboard", "Dark/light theme", "Real-time KPIs"],
+    color: "from-violet-500 to-purple-600",
+    icon: LayoutDashboard,
+    github: "https://github.com/nesrine77/starChallenge_dashboard",
+    demo: "https://github.com/nesrine77/starChallenge_dashboard/tree/master/public/assets/demo",
+  },
+  {
+    id: 6,
+    title: "eco.net (Web)",
+    description:
+      "Sustainable resource management platform promoting responsible consumption. Features advanced UI with ecological theme and comprehensive environmental tools.",
+    category: "web",
+    technologies: ["Symfony 6.4", "MySQL", "Twig", "Bootstrap"],
+    achievements: ["ML insights", "QR codes", "PDF reports"],
+    color: "from-green-500 to-teal-600",
+    icon: Leaf,
+    github: "https://github.com/nesrine77/econet",
+    demo: "https://github.com/nesrine77/econet/tree/main/assets/demo",
+  },
+  {
+    id: 7,
+    title: "eco.net (Desktop)",
+    description:
+      "Desktop companion with cutting-edge AI integration for environmental management. Features chatbot, face recognition, and voice capabilities.",
+    category: "ai",
+    technologies: ["JavaFX", "Python", "Google Gemini", "OpenCV"],
+    achievements: ["AI chatbot", "Face recognition", "Voice recognition"],
+    color: "from-emerald-500 to-green-700",
+    icon: Monitor,
+    github: "https://github.com/nesrine77/econet-java",
+    demo: "https://github.com/nesrine77/econet-java",
+  },
+  {
+    id: 8,
+    title: "HireUp",
+    description:
+      "AI-driven recruitment platform with intelligent matching and modern tech stack. Creates meaningful connections between talent and opportunity.",
+    category: "ai",
+    technologies: ["PHP 8", "Python", "TensorFlow", "TypeScript"],
+    achievements: ["AI matching", "Computer vision", "ML algorithms"],
+    color: "from-orange-500 to-red-600",
+    icon: Briefcase,
+    github: "https://github.com/nesrine77/HireUp",
+    demo: "https://www.youtube.com/watch?v=RhInW6xJelM",
   },
 ];
 
@@ -111,9 +164,7 @@ export function Projects() {
                   className={`h-40 bg-gradient-to-br ${project.color} flex items-center justify-center relative overflow-hidden`}
                 >
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
-                  <span className="text-4xl font-bold text-white/90 font-display">
-                    {project.title.charAt(0)}
-                  </span>
+                  <project.icon className="w-16 h-16 text-white/90 stroke-[1.5]" />
                   {/* Decorative elements */}
                   <div className="absolute top-4 right-4 w-16 h-16 border-2 border-white/20 rounded-full" />
                   <div className="absolute bottom-4 left-4 w-8 h-8 border-2 border-white/20 rounded-full" />
@@ -149,11 +200,21 @@ export function Projects() {
 
                 {/* Action Buttons */}
                 <div className="flex gap-2">
-                  <Button variant="outline" size="sm" className="flex-1 gap-2" disabled>
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="flex-1 gap-2"
+                    onClick={() => window.open(project.github, '_blank')}
+                  >
                     <Github className="w-4 h-4" />
                     Code
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1 gap-2" disabled>
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="flex-1 gap-2"
+                    onClick={() => window.open(project.demo, '_blank')}
+                  >
                     <ExternalLink className="w-4 h-4" />
                     Demo
                   </Button>

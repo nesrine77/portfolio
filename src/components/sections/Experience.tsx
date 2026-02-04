@@ -5,8 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const experiences = [
   {
     company: "STAR ASSURANCES",
-    role: "Full-Stack Developer Intern",
-    duration: "June 2024 - August 2024",
+    role: "Corporate Immersion Internship",
+    duration: "June 2025 - August 2025",
     location: "Tunis, Tunisia",
     description:
       "Developed a comprehensive insurance challenge platform with real-time features and modern architecture.",
@@ -15,14 +15,14 @@ const experiences = [
       "Developed Node.js backend with Express and Socket.IO for real-time updates",
       "Implemented JWT authentication and secure API endpoints",
       "Created admin dashboard using React and Material UI",
-      "Designed and optimized PostgreSQL database schema",
+      "Designed and optimized SQLite database schema",
     ],
-    technologies: ["Flutter", "Node.js", "Socket.IO", "JWT", "React", "Material UI", "PostgreSQL"],
+    technologies: ["Flutter", "Node.js", "Socket.IO", "JWT", "React", "Material UI", "SQLite", "Full-Stack", "Front Office", "Back Office"],
   },
   {
     company: "Tunisie Telecom",
-    role: "Web Developer Intern",
-    duration: "July 2023 - August 2023",
+    role: "Human Resources Internship",
+    duration: "June 2023 - July 2023",
     location: "Tunis, Tunisia",
     description:
       "Contributed to the development of an e-commerce web platform using modern React ecosystem.",
@@ -32,7 +32,7 @@ const experiences = [
       "Integrated REST APIs for product data management",
       "Collaborated with design team to improve user experience",
     ],
-    technologies: ["ReactJS", "JavaScript", "CSS3", "REST APIs", "Git"],
+    technologies: ["ReactJS", "JavaScript", "CSS3", "REST APIs"],
   },
 ];
 
