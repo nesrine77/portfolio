@@ -60,7 +60,7 @@ export function Footer() {
             © {currentYear} Nesrine Derouiche. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-primary fill-primary" /> in Tunisia
+            Made with <Heart className="w-3 h-3 text-primary fill-primary" />.
           </p>
         </div>
 
