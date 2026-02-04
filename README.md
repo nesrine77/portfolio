@@ -20,10 +20,10 @@
 <div align="center">
 
 ### 🌞 Light Theme
-<img src="src/assets/demo/portfolio-light.png" alt="Portfolio Light Theme" width="800"/>
+<img src="public/assets/demo/portfolio-light.png" alt="Portfolio Light Theme" width="800"/>
 
 ### 🌙 Dark Theme
-<img src="src/assets/demo/portfolio-dark.png" alt="Portfolio Dark Theme" width="800"/>
+<img src="public/assets/demo/portfolio-dark.png" alt="Portfolio Dark Theme" width="800"/>
 
 </div>
 
@@ -140,7 +140,7 @@ npm run preview
 nesrine-s-dev-showcase/
 ├── public/                 # Static assets
 ├── src/
-│   ├── assets/            # Images, certifications, demo screenshots
+│   ├── assets/            # (Moved to public/assets)
 │   ├── components/        # React components
 │   │   ├── sections/      # Page sections (Hero, About, Skills, etc.)
 │   │   ├── ui/           # Reusable UI components (shadcn/ui)

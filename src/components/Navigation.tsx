@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/ThemeProvider";
-import nesrineLogo from "@/assets/nesrine-logo.png";
+import nesrineLogo from "/assets/nesrine-logo.png";
 
 const navLinks = [
   { href: "#about", label: "About" },

@@ -1,6 +1,6 @@
 import { ArrowDown, Mail, Linkedin, Github, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import nesrineProfile from "@/assets/nesrine-profile.png";
+import nesrineProfile from "/assets/nesrine-profile.png";
 
 const socialLinks = [
   { icon: Linkedin, href: "https://linkedin.com/in/nesrine-derouiche", label: "LinkedIn" },

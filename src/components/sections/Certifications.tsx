@@ -21,7 +21,7 @@ const certifications = [
     year: "2025",
     category: "Programming",
     color: "from-yellow-500 to-orange-600",
-    image: "/src/assets/certifications/python-essentials1-certif.jpeg",
+    image: "/assets/certifications/python-essentials1-certif.jpeg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const certifications = [
     year: "2025",
     category: "Programming",
     color: "from-yellow-500 to-orange-600",
-    image: "/src/assets/certifications/python-essentials2-certif.jpeg",
+    image: "/assets/certifications/python-essentials2-certif.jpeg",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const certifications = [
     year: "2025",
     category: "Programming",
     color: "from-yellow-400 to-amber-600",
-    image: "/src/assets/certifications/javascript-essentials2-certif.jpeg",
+    image: "/assets/certifications/javascript-essentials2-certif.jpeg",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const certifications = [
     year: "2023",
     category: "Achievement",
     color: "from-green-500 to-teal-600",
-    image: "/src/assets/certifications/Certificate-of-bal-CDIO-2023.jpeg",
+    image: "/assets/certifications/Certificate-of-bal-CDIO-2023.jpeg",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const certifications = [
     year: "2024",
     category: "Achievement",
     color: "from-green-500 to-teal-600",
-    image: "/src/assets/certifications/Certificate-of-bal-CDIO-2024.jpeg",
+    image: "/assets/certifications/Certificate-of-bal-CDIO-2024.jpeg",
   },
   {
     id: 7,
